@@ -1,0 +1,105 @@
+<ImportExportXml version="9.2.23111.206" SolutionPackageVersion="9.2" languagecode="1046" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SolutionManifest>
+    <UniqueName>Treinamento</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="Treinamento" languagecode="1046" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Teste" languagecode="1046" />
+    </Descriptions>
+    <Version>2.2</Version>
+    <Managed>0</Managed>
+    <Publisher>
+      <UniqueName>DefaultPublisherorg5fe93c80</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="Publicador Padrão para org5fe93c80" languagecode="1046" />
+      </LocalizedNames>
+      <Descriptions>
+        <Description description="Publicador padrão para essa organização" languagecode="1046" />
+      </Descriptions>
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>new</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>10000</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode xsi:nil="true"></AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode xsi:nil="true"></ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode xsi:nil="true"></AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode xsi:nil="true"></ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="crad0_instrutores" behavior="0" />
+      <RootComponent type="1" schemaName="new_aluno" behavior="0" />
+      <RootComponent type="1" schemaName="new_curso" behavior="0" />
+      <RootComponent type="1" schemaName="new_cursoxinsrutores" behavior="0" />
+      <RootComponent type="1" schemaName="new_intrutortreinamento" behavior="0" />
+      <RootComponent type="1" schemaName="new_treinamento" behavior="0" />
+      <RootComponent type="29" id="{bb8acb77-1b8e-ee11-be36-002248e1308c}" behavior="0" />
+      <RootComponent type="300" schemaName="new_aplicativoaddinstrutordois_9576c" behavior="0" />
+      <RootComponent type="300" schemaName="new_aplicativoaddinstrutor_81b66" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.Canvas.CanvasControl" displayName="MscrmControls.Canvas.CanvasControl" solution="BaseCustomControlsCore (9.0.2311.1022)" />
+        <Dependent type="60" displayName="Informações" parentDisplayName="Treinamento" id="{3b428726-24a8-421e-af31-1b4f3039115c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.Canvas.CanvasControl" displayName="MscrmControls.Canvas.CanvasControl" solution="BaseCustomControlsCore (9.0.2311.1022)" />
+        <Dependent type="60" displayName="Informações" parentDisplayName="curso x instrutor" id="{d06d0067-3844-48ca-b3b1-621ff6e63559}" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>
